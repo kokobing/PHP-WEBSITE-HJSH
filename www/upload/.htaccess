@@ -1,0 +1,14 @@
+﻿<IFMODULE mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+
+#all php to html 
+RewriteRule ^/?([a-z/]+)\.html$ $1.php [L] 
+RewriteRule ^news/news-(.*).html$ news/news.php?id=$1
+RewriteRule ^case/case-(.*).html$ case/case.php?id=$1
+RewriteRule ^event/event_check-(.*).html$ event/event_check.php?id=$1
+
+</IFMODULE>
+
+
+

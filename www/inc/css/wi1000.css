@@ -1,0 +1,305 @@
+@charset "utf-8";
+.all {
+    width: 100%;
+    position: relative
+}
+
+.all .top img {
+    display: none
+}
+
+.all .top2 {
+    display: none!important
+}
+
+.top3top{
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    top:27px;
+    border-bottom:1px solid #f5f5f5;
+}
+
+.all .top3 {
+    display: block!important;
+}
+
+.all .top3 .title {
+    height: 65px;
+    margin-top:15px;
+}
+
+.all .top3 .title .logo {
+    margin-left:10px;
+    float:left;
+}
+
+
+
+.all .top3 .d22 {
+float:left;margin-left:15px;margin-top:5px;
+}
+
+.all .top3 .d22 .text {
+    width:120px;
+}
+
+
+.all .top3 .d22 .t2 {
+    display:block;
+    font-size: .625rem;
+    color: #888
+}
+
+
+.all .top3 .d22 .t1 {
+    display:block;
+    font-family: arial;
+    color: #cd9655;
+    font-size: 18px;
+    font-weight: 700
+}
+
+
+
+.all .top3 .title .logo img{
+   width:139px;
+}
+
+.all .top3 .title .menu {
+    float:right;
+    width: 40px;
+    height: 40px;
+    background: url(/inc/pics/menu.png) no-repeat;
+    background-size: 100%;
+    margin-right: 1.041667rem
+}
+
+.all .top3 .title .down {
+    background: url(/inc/pics/down.png) no-repeat center center;
+    background-size: 80% 80%
+}
+
+.all .top3 nav {
+    display:none;
+    position: absolute;
+    top: 6.90rem;
+    background: rgba(39, 27, 27, .8);
+    z-index: 2000;
+    width: 100%
+}
+
+.all .top3 nav a {
+	font-family:'微软雅黑'; 
+    display: block;
+    cursor:pointer;
+    width: 100%;
+    padding: .520833rem 0;
+    color: #fff;
+    padding-left: 1.302083rem;
+    border-bottom: 1px solid #473728
+}
+
+.all .top3 nav a:last-child {
+    border: none;
+    margin-left:25px;
+}
+
+.mainbanner {
+    padding-top: 100px !important;
+}
+
+
+
+.all .sec1 .arrow {
+    width: 100%!important;
+    margin-left: 0;
+    left: 0;
+    padding: 0 1.041667rem
+}
+
+.all .sec1 .swiper-button-prev,
+.all .sec1 .swiper-container-rtl .swiper-button-next {
+    left: 1.041667rem
+}
+
+.all .sec1 .swiper-button-next,
+.all .sec1 .swiper-container-rtl .swiper-button-prev {
+    right: 2.604167rem!important
+}
+
+.all .sec2 {
+    width: 100%
+}
+
+.all .sec2 .p1 {
+    padding: 0 1.041667rem;
+    padding-bottom: 2.083333rem;
+    margin-bottom: 1.5rem
+}
+
+.all .sec2 .p1 .b2 {
+    margin-right: 1.041667rem
+}
+
+.all .sec2 .p1 .b1 {
+    margin-right: 1rem
+}
+
+.all .sec2 .btn {
+    display: none
+}
+
+.all .sec2 .swiper-slide {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto
+}
+
+.all .sec2 .swiper-slide .ind {
+    min-width: 360px
+}
+
+.all .sec2 .swiper-slide .ind img {
+    width: 360px
+}
+
+.all .sec3 {
+    min-width: 0;
+    background-size: auto
+}
+
+.all .sec3 .inside {
+    justify-content: center
+}
+
+.all .sec3 .inside .ind {
+    width: 18.75rem;
+    margin-right: 0;
+    min-width: 310px
+}
+
+.all .sec4 .d1 .title {
+    margin-left: 1.041667rem
+}
+
+.all .sec4 .d1 .btn {
+    margin-right: 1.041667rem
+}
+
+.all .sec4 .d2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.all .sec4 .d2 .in {
+    min-width: 278px
+}
+
+.all .sec5 .ind h1,
+.all .sec7 .ind h1 {
+    font-size: 18px;
+    margin-left: 1.041667rem
+}
+
+.all .sec5 .ind .p1,
+.all .sec7 .ind .p1 {
+    margin: 0 1.041667rem
+}
+
+.all .sec5 .ind .p1 span,
+.all .sec7 .ind .p1 span {
+    width: 100%
+}
+
+.all .sec5 .ind .btn,
+.all .sec7 .ind .btn {
+    display: none
+}
+
+.all .sec5 .ind .swiper-slide,
+.all .sec7 .ind .swiper-slide {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.all .sec5 .ind .swiper-slide .in,
+.all .sec7 .ind .swiper-slide .in {
+    min-width: 270px
+}
+
+.all .sec5 .ind .swiper-slide .in img,
+.all .sec7 .ind .swiper-slide .in img {
+    height: 294px
+}
+
+.all .sec7 .swiper-slide {
+    flex-wrap: wrap
+}
+
+.all .sec7 .swiper-slide .in {
+    width: 360px
+}
+
+.all .sec7 .swiper-slide .in img {
+    height: 250px
+}
+
+.all .foo1,
+.all .foo2 .ff .sp2{
+    display: none
+}
+
+.all .foo2 .ff .sp1{width:100%;text-align: center}
+
+.all .sec6 .introbox{
+    top:20%;
+}
+.all .sec6 .introbox .title{
+    font-size:18px;
+}
+.all .sec3 .ind .title,.all .sec3 .ind .text{color:#fff;}
+.othertitlebox .title{margin:10px 0;padding:5px 0;padding-left:10px;}
+.othertitlebox { }
+
+
+.all .sec3 {
+    width: 100%;
+}
+.mainbanner{padding-top:27px;}
+.top2top{display:none}
+.innerpage{margin-top:20px;}
+.contactinnerpage{margin-top:30px;}
+.caseinnerpage{margin-top:50px;}
+.innerpage .right{display:none}
+
+.innerpage{width:100%;}
+.innerpage .content{width:100%;float:none;}
+.innerpage .content .info{padding:10px;}
+.innerpage .content .title{font-size:18px;}
+.innerpage .content .info p span{font-size:12px !important;}
+.innerpage .content img{width:100% !important;height:auto !important;}
+
+.spacebox{padding-bottom:0px;}
+.navibox{padding:10px;}
+.navi{width:100%;}
+.all .top .nav{padding-left:10px;}
+.mainmenutop{display:none}
+
+.newsbox{width:100%}
+.newslist{width:100%}
+
+.all .sec2 .d1 .swiper-slide a{display:block;min-width: 360px;}
+
+.newsbox {
+    margin-top:0px;padding-top:0px;
+}
+.nleftlist li span,.event_ibtn{display:none;}
