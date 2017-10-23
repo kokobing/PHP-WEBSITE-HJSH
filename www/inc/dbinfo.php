@@ -21,6 +21,6 @@ $db_config = array(
 ///////////////////////////////////////////////////////////
 
 $server_type="win";//主机类型
-$siteurl="http://www.hjshgroup.com/";//必设 后面涉及图片路径
+$siteurl="http://www.website.com/";//必设 后面涉及图片路径
 
 ?>

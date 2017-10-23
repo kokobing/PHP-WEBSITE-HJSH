@@ -12,7 +12,7 @@
                 <span class="t1">7*24小时热线</span>
                 <span class="t2"><?php echo $siteset['smailbox'];?></span>
                 <span class="t3">关注我们</span>
-                <img src="/inc/pics/i88_24.png" alt="<?php echo $siteset['tag'];?>">
+                <img src="/inc/pics/i88_24.png" alt="">
             </div>
             <div class="f22">
                 <?php echo $weixinpic['content'];?>
@@ -46,7 +46,7 @@
             </p>
 
             <p class="p2">
-                <span class="title"><a href="/about/joinus.html" title="<?php echo $siteset['tag'];?>" target="_blank" style="color:#fff">英才招聘</a></span>
+                <span class="title"><a href="/about/joinus.html" target="_blank" style="color:#fff">英才招聘</a></span>
             </p>
         </div>
     </div>
@@ -62,4 +62,3 @@
 <div id="backToTop2" class="backtoTop2">
   返回顶部 <i class="fa fa-angle-double-up" aria-hidden="true"></i>
 </div>
-
