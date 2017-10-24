@@ -41,7 +41,7 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
    
 	\<VirtualHost *:80\>  
 		ServerAdmin webmaster@dummy-host2.example.com  
-		DocumentRoot "C:/xampp/htdocs/website"  
+		DocumentRoot "C:/xampp/htdocs/website/www"  
 		ServerName www.website.com  
 		ErrorLog "logs/dummy-host2.example.com-error.log"  
 		CustomLog "logs/dummy-host2.example.com-access.log" common  
