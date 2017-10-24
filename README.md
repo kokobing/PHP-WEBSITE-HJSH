@@ -15,12 +15,12 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
  
  * 配置数据库连接信息 /www/inc/dbinfo.php
  
- 	$db_hostname="localhost"; //服务器 /<br>
-	$db_username="root"; //用户名/<br>
-	$db_password="123456"; //密码/<br>
-	$db_database="website"; //数据库/<br>
-	$db_port=3306; //port/<br>
-	$db_charset='utf8'; //port/<br>
+ 	$db_hostname="localhost"; //服务器  
+	$db_username="root"; //用户名  
+	$db_password="123456"; //密码  
+	$db_database="website"; //数据库  
+	$db_port=3306; //port  
+	$db_charset='utf8'; //port  
 	
  * apache 禁止访问目录  http.conf中找到如下行信息，去除Indexes 
 
