@@ -46,8 +46,8 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
 	    DocumentRoot "C:/xampp/htdocs/website"  
 	    ServerName www.website.com  
 	    ErrorLog "logs/dummy-host2.example.com-error.log"  
-	    CustomLog "logs/dummy-host2.example.com-access.log" common  
-	</VirtualHost>  
+	    CustomLog "logs/dummy-host2.example.com-access.log" common   
+	</VirtualHost>   
 
  *  C:\Windows\System32\drivers\etc\hosts    域名重定向 追加下行
     127.0.0.1       www.website.com
