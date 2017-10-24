@@ -22,17 +22,35 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
 	$db_port=3306; //port  
 	$db_charset='utf8'; //port  
 	
- * apache 禁止访问目录  http.conf中找到如下行信息，去除Indexes 
+ * apache 禁止访问目录  httpd.conf中找到如下行信息，去除Indexes 
 
    Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes 
-
+   
+   httpd.conf中找到如下行，去掉#，开启VHOST扩展
+   Include conf/extra/httpd-vhosts.conf  
+   
  * php.ini 中报错提示找到error_reporting行信息，并追加  & ~E_NOTICE
 
    error_reporting=E_ALL & ~E_DEPRECATED & ~E_STRICT  `& ~E_NOTICE`  -----  追加 & ~E_NOTICE
 
  * php.ini 短标记 short_open_tag = On
+ 
+运行设置
+=========================== 
+ 
+ *  安装盘：\xampp\apache\conf\extra\httpd-vhosts.conf 设定主机信息  追加
+   
+   
+	<VirtualHost *:80>  
+	    ServerAdmin webmaster@dummy-host2.example.com  
+	    DocumentRoot "C:/xampp/htdocs/website"  
+	    ServerName www.website.com  
+	    ErrorLog "logs/dummy-host2.example.com-error.log"  
+	    CustomLog "logs/dummy-host2.example.com-access.log" common  
+	</VirtualHost>  
 
-	
+ *  C:\Windows\System32\drivers\etc\hosts    域名重定向 追加下行
+    127.0.0.1       www.website.com
 
 ****
 	
