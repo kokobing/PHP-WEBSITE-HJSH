@@ -51,7 +51,7 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
  *  C:\Windows\System32\drivers\etc\hosts    域名重定向 追加下行
     127.0.0.1       www.website.com
 
- *  浏览器中运行 http://www.website.com
+ *  重启APACHE后，在浏览器中运行 http://www.website.com
 ****
 	
 |Author|Koko Lv|
