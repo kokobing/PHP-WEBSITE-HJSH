@@ -22,7 +22,7 @@ PHP-WEBSITE-HJSH 一个完整的网站，包括前台后台，因为项目生命
 	$db_port=3306; //port  
 	$db_charset='utf8'; //port  
 	
- * apache 禁止访问目录,httpd.conf中找到如下行信息，去除Indexes 
+ * apache 禁止访问目录,httpd.conf中找到如下行信息，去除Indexes  
 	Options `Indexes` FollowSymLinks Includes ExecCGI ------- httpd.conf去除 Indexes   
 	
  * httpd.conf中找到如下行，去掉#，开启VHOST扩展  
